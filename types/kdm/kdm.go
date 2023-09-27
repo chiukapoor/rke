@@ -3,7 +3,7 @@ package kdm
 import (
 	"encoding/json"
 
-	v3 "github.com/rancher/rke/types"
+	v3 "github.com/chiukapoor/rke/types"
 )
 
 const (

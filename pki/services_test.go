@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/rancher/rke/hosts"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/hosts"
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/stretchr/testify/assert"
 )
 

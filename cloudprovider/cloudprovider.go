@@ -1,13 +1,13 @@
 package cloudprovider
 
 import (
-	"github.com/rancher/rke/cloudprovider/aws"
-	"github.com/rancher/rke/cloudprovider/azure"
-	"github.com/rancher/rke/cloudprovider/custom"
-	"github.com/rancher/rke/cloudprovider/harvester"
-	"github.com/rancher/rke/cloudprovider/openstack"
-	"github.com/rancher/rke/cloudprovider/vsphere"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/cloudprovider/aws"
+	"github.com/chiukapoor/rke/cloudprovider/azure"
+	"github.com/chiukapoor/rke/cloudprovider/custom"
+	"github.com/chiukapoor/rke/cloudprovider/harvester"
+	"github.com/chiukapoor/rke/cloudprovider/openstack"
+	"github.com/chiukapoor/rke/cloudprovider/vsphere"
+	v3 "github.com/chiukapoor/rke/types"
 )
 
 type CloudProvider interface {

@@ -12,17 +12,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rancher/rke/util"
+	"github.com/chiukapoor/rke/util"
 
+	"github.com/chiukapoor/rke/log"
+	"github.com/chiukapoor/rke/metadata"
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/coreos/go-semver/semver"
 	ref "github.com/docker/distribution/reference"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/rancher/rke/log"
-	"github.com/rancher/rke/metadata"
-	v3 "github.com/rancher/rke/types"
 	"github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/sets"
 )

@@ -3,9 +3,9 @@ package services
 import (
 	"context"
 
-	"github.com/rancher/rke/docker"
-	"github.com/rancher/rke/hosts"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/docker"
+	"github.com/chiukapoor/rke/hosts"
+	v3 "github.com/chiukapoor/rke/types"
 )
 
 func runKubeproxy(ctx context.Context, host *hosts.Host, df hosts.DialerFactory, prsMap map[string]v3.PrivateRegistry, kubeProxyProcess v3.Process, alpineImage, k8sVersion string) error {

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/go-ini/ini"
-	v3 "github.com/rancher/rke/types"
 )
 
 const (

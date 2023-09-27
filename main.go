@@ -8,9 +8,9 @@ import (
 	"os"
 	"regexp"
 
+	"github.com/chiukapoor/rke/cmd"
+	"github.com/chiukapoor/rke/metadata"
 	"github.com/mattn/go-colorable"
-	"github.com/rancher/rke/cmd"
-	"github.com/rancher/rke/metadata"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )
@@ -49,7 +49,7 @@ func mainErr() error {
 			metadata.RKEVersion = app.Version
 			return nil
 		}
-		logrus.Warnf("This is not an officially supported version (%s) of RKE. Please download the latest official release at https://github.com/rancher/rke/releases", app.Version)
+		logrus.Warnf("This is not an officially supported version (%s) of RKE. Please download the latest official release at https://github.com/chiukapoor/rke/releases", app.Version)
 		return nil
 	}
 	app.Author = "Rancher Labs, Inc."

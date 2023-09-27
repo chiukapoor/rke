@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rancher/rke/metadata"
+	"github.com/chiukapoor/rke/metadata"
 
-	"github.com/rancher/rke/cluster"
-	"github.com/rancher/rke/pki"
-	"github.com/rancher/rke/services"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/cluster"
+	"github.com/chiukapoor/rke/pki"
+	"github.com/chiukapoor/rke/services"
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 	"gopkg.in/yaml.v2"

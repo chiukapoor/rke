@@ -5,8 +5,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/rancher/rke/cluster"
-	"github.com/rancher/rke/pki"
+	"github.com/chiukapoor/rke/cluster"
+	"github.com/chiukapoor/rke/pki"
 	"github.com/urfave/cli"
 )
 

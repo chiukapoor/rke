@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/rancher/rke/metadata"
+	"github.com/chiukapoor/rke/metadata"
 )
 
 const (

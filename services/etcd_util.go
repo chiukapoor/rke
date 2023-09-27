@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rancher/rke/hosts"
+	"github.com/chiukapoor/rke/hosts"
 	"github.com/sirupsen/logrus"
 	etcdclientv2 "go.etcd.io/etcd/client/v2"
 	etcdclientv3 "go.etcd.io/etcd/client/v3"

@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/rancher/rke/metadata"
+	"github.com/chiukapoor/rke/metadata"
 
 	sv "github.com/blang/semver"
 	"github.com/coreos/go-semver/semver"

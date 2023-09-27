@@ -3,8 +3,8 @@ package vsphere
 import (
 	"fmt"
 
-	"github.com/rancher/rke/templates"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/templates"
+	v3 "github.com/chiukapoor/rke/types"
 )
 
 const (

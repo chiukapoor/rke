@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rancher/rke/hosts"
-	"github.com/rancher/rke/k8s"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/hosts"
+	"github.com/chiukapoor/rke/k8s"
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 	k8sutil "k8s.io/apimachinery/pkg/util/intstr"

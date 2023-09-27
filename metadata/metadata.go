@@ -13,10 +13,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
+	"github.com/chiukapoor/rke/data"
+	v3 "github.com/chiukapoor/rke/types"
+	"github.com/chiukapoor/rke/types/kdm"
 	mVersion "github.com/mcuadros/go-version"
-	"github.com/rancher/rke/data"
-	v3 "github.com/rancher/rke/types"
-	"github.com/rancher/rke/types/kdm"
 )
 
 const (

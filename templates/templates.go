@@ -9,10 +9,10 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 	"github.com/blang/semver"
+	"github.com/chiukapoor/rke/metadata"
+	"github.com/chiukapoor/rke/types/kdm"
 	"github.com/ghodss/yaml"
 	"github.com/rancher/norman/types/convert"
-	"github.com/rancher/rke/metadata"
-	"github.com/rancher/rke/types/kdm"
 	"github.com/sirupsen/logrus"
 )
 

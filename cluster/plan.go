@@ -12,15 +12,15 @@ import (
 	"strings"
 
 	"github.com/blang/semver"
+	"github.com/chiukapoor/rke/docker"
+	"github.com/chiukapoor/rke/hosts"
+	"github.com/chiukapoor/rke/k8s"
+	"github.com/chiukapoor/rke/metadata"
+	"github.com/chiukapoor/rke/pki"
+	"github.com/chiukapoor/rke/services"
+	v3 "github.com/chiukapoor/rke/types"
+	"github.com/chiukapoor/rke/util"
 	"github.com/docker/docker/api/types"
-	"github.com/rancher/rke/docker"
-	"github.com/rancher/rke/hosts"
-	"github.com/rancher/rke/k8s"
-	"github.com/rancher/rke/metadata"
-	"github.com/rancher/rke/pki"
-	"github.com/rancher/rke/services"
-	v3 "github.com/rancher/rke/types"
-	"github.com/rancher/rke/util"
 	"github.com/sirupsen/logrus"
 	netutils "k8s.io/utils/net"
 	"sigs.k8s.io/yaml"
@@ -703,7 +703,7 @@ func (c *Cluster) BuildKubeProxyProcess(host *hosts.Host, serviceOptions v3.Kube
 			CommandArgs["bind-address"] = host.Address
 		}
 		if c.CloudProvider.Name == k8s.AWSCloudProvider && c.CloudProvider.UseInstanceMetadataHostname != nil && *c.CloudProvider.UseInstanceMetadataHostname {
-			// rke-tools will inject hostname-override from ec2 instance metadata to match with the spec.nodeName set by cloud provider https://github.com/rancher/rke-tools/blob/3eab4f07aa97a8aeeaaef55b1b7bbc82e2a3374a/entrypoint.sh#L17
+			// rke-tools will inject hostname-override from ec2 instance metadata to match with the spec.nodeName set by cloud provider https://github.com/chiukapoor/rke-tools/blob/3eab4f07aa97a8aeeaaef55b1b7bbc82e2a3374a/entrypoint.sh#L17
 			delete(CommandArgs, "hostname-override")
 		}
 	}

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rancher/rke/hosts"
-	"github.com/rancher/rke/k8s"
-	"github.com/rancher/rke/log"
-	"github.com/rancher/rke/pki"
-	"github.com/rancher/rke/pki/cert"
-	"github.com/rancher/rke/services"
+	"github.com/chiukapoor/rke/hosts"
+	"github.com/chiukapoor/rke/k8s"
+	"github.com/chiukapoor/rke/log"
+	"github.com/chiukapoor/rke/pki"
+	"github.com/chiukapoor/rke/pki/cert"
+	"github.com/chiukapoor/rke/services"
 )
 
 func SetUpAuthentication(ctx context.Context, kubeCluster, currentCluster *Cluster, fullState *FullState) error {

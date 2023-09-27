@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rancher/rke/docker"
-	"github.com/rancher/rke/hosts"
-	"github.com/rancher/rke/log"
-	"github.com/rancher/rke/pki"
-	"github.com/rancher/rke/pki/cert"
+	"github.com/chiukapoor/rke/docker"
+	"github.com/chiukapoor/rke/hosts"
+	"github.com/chiukapoor/rke/log"
+	"github.com/chiukapoor/rke/pki"
+	"github.com/chiukapoor/rke/pki/cert"
 	"github.com/sirupsen/logrus"
 )
 

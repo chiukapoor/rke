@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/rancher/rke/hosts"
-	"github.com/rancher/rke/log"
-	"github.com/rancher/rke/pki/cert"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/hosts"
+	"github.com/chiukapoor/rke/log"
+	"github.com/chiukapoor/rke/pki/cert"
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/sirupsen/logrus"
 )
 

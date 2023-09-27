@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-ini/ini"
 
-	v3 "github.com/rancher/rke/types"
+	v3 "github.com/chiukapoor/rke/types"
 )
 
 const (

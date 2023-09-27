@@ -9,7 +9,7 @@ import (
 
 	"k8s.io/client-go/transport"
 
-	v3 "github.com/rancher/rke/types"
+	v3 "github.com/chiukapoor/rke/types"
 	"golang.org/x/crypto/ssh"
 )
 

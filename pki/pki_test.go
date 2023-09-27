@@ -7,7 +7,7 @@ import (
 	"net"
 	"testing"
 
-	v3 "github.com/rancher/rke/types"
+	v3 "github.com/chiukapoor/rke/types"
 )
 
 const (

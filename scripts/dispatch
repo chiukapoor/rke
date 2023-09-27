@@ -25,4 +25,4 @@ echo "Dispatching to branch ${ACTION_TARGET_BRANCH}"
 curl -XPOST -u "${PAT_USERNAME}:${PAT_TOKEN}" \
         -H "Accept: application/vnd.github.v3+json"  \
         -H "Content-Type: application/json" $REPO \
-        --data '{"ref": "'"$ACTION_TARGET_BRANCH"'","inputs":{"goget_module":"github.com/rancher/rke","goget_version":"'"$DRONE_TAG"'","source_author":"'"$DRONE_COMMIT_AUTHOR"'"}}'
+        --data '{"ref": "'"$ACTION_TARGET_BRANCH"'","inputs":{"goget_module":"github.com/chiukapoor/rke","goget_version":"'"$DRONE_TAG"'","source_author":"'"$DRONE_COMMIT_AUTHOR"'"}}'

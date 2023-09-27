@@ -19,7 +19,7 @@ jobs:
          latest=$(jq -r 'first(.[] | select(.tagName | startswith("v'"${rke_major_minor}"'")) | select(.tagName | contains("rc") | not) | .tagName)' $tagstmpfile)
          if [ -n "${latest}" ]; then
            echo "* v${rke_major_minor}" >> $readmetmpfile
-           echo "  * ${latest} - Read the full release [notes](https://github.com/rancher/rke/releases/tag/${latest})." >> $readmetmpfile
+           echo "  * ${latest} - Read the full release [notes](https://github.com/chiukapoor/rke/releases/tag/${latest})." >> $readmetmpfile
          fi
        done
        sed -e '/## Latest Release/r '"$readmetmpfile"'' -e 's/CURRENTYEAR/'"$(date +%Y)"'/g' README-template.md > README.md

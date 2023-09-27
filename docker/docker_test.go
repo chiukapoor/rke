@@ -3,7 +3,7 @@ package docker
 import (
 	"testing"
 
-	v3 "github.com/rancher/rke/types"
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,8 +7,8 @@ import (
 	"k8s.io/client-go/transport"
 
 	"github.com/blang/semver"
-	"github.com/rancher/rke/k8s"
-	"github.com/rancher/rke/templates"
+	"github.com/chiukapoor/rke/k8s"
+	"github.com/chiukapoor/rke/templates"
 	"github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

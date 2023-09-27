@@ -7,7 +7,7 @@ RUN zypper -n in docker awk
 
 RUN curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s v1.52.2
 
-ENV DAPPER_SOURCE /go/src/github.com/rancher/rke/
+ENV DAPPER_SOURCE /go/src/github.com/chiukapoor/rke/
 ENV DAPPER_RUN_ARGS --privileged -v /var/lib/docker
 ENV DAPPER_OUTPUT ./bin ./dist ./build/bin ./data
 ENV DAPPER_DOCKER_SOCKET true

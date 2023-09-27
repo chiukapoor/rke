@@ -1,6 +1,6 @@
 package custom
 
-import v3 "github.com/rancher/rke/types"
+import v3 "github.com/chiukapoor/rke/types"
 
 type CloudProvider struct {
 	Name   string

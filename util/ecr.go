@@ -12,8 +12,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ecr"
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/docker/docker/api/types"
-	v3 "github.com/rancher/rke/types"
 )
 
 const proxyEndpointScheme = "https://"

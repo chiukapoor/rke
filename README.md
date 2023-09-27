@@ -6,13 +6,13 @@ Rancher Kubernetes Engine, an extremely simple, lightning fast Kubernetes instal
 
 ## Latest Release
 * v1.4
-  * v1.4.10 - Read the full release [notes](https://github.com/rancher/rke/releases/tag/v1.4.10).
+  * v1.4.10 - Read the full release [notes](https://github.com/chiukapoor/rke/releases/tag/v1.4.10).
 * v1.3
-  * v1.3.24 - Read the full release [notes](https://github.com/rancher/rke/releases/tag/v1.3.24).
+  * v1.3.24 - Read the full release [notes](https://github.com/chiukapoor/rke/releases/tag/v1.3.24).
 
 ## Download
 
-Please check the [releases](https://github.com/rancher/rke/releases/) page.
+Please check the [releases](https://github.com/chiukapoor/rke/releases/) page.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ Please use [Setting up a High-availability RKE Kubernetes Cluster](https://ranch
 
 ## Building
 
-RKE can be built using the `make` command, and will use the scripts in the `scripts` directory as subcommands. The default subcommand is `ci` and will use `scripts/ci`. Cross compiling can be enabled by setting the environment variable `CROSS=1`. The compiled binaries can be found in the `build/bin` directory. Dependencies are managed by Go modules and can be found in [go.mod](https://github.com/rancher/rke/blob/master/go.mod).
+RKE can be built using the `make` command, and will use the scripts in the `scripts` directory as subcommands. The default subcommand is `ci` and will use `scripts/ci`. Cross compiling can be enabled by setting the environment variable `CROSS=1`. The compiled binaries can be found in the `build/bin` directory. Dependencies are managed by Go modules and can be found in [go.mod](https://github.com/chiukapoor/rke/blob/master/go.mod).
 
 Read [codegen/codegen.go](./codegen/codegen.go) to check the default location for fetching `data.json`. You can override the default location as seen in the example below:
 

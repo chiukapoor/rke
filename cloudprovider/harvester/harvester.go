@@ -1,6 +1,6 @@
 package harvester
 
-import v3 "github.com/rancher/rke/types"
+import v3 "github.com/chiukapoor/rke/types"
 
 const HarvesterCloudProviderName = "harvester"
 

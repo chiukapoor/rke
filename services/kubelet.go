@@ -3,10 +3,10 @@ package services
 import (
 	"context"
 
-	"github.com/rancher/rke/docker"
-	"github.com/rancher/rke/hosts"
-	"github.com/rancher/rke/pki"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/docker"
+	"github.com/chiukapoor/rke/hosts"
+	"github.com/chiukapoor/rke/pki"
+	v3 "github.com/chiukapoor/rke/types"
 )
 
 func runKubelet(ctx context.Context, host *hosts.Host, df hosts.DialerFactory, prsMap map[string]v3.PrivateRegistry, kubeletProcess v3.Process, certMap map[string]pki.CertificatePKI, alpineImage, k8sVersion string) error {

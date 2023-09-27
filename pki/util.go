@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rancher/rke/hosts"
-	"github.com/rancher/rke/pki/cert"
-	v3 "github.com/rancher/rke/types"
+	"github.com/chiukapoor/rke/hosts"
+	"github.com/chiukapoor/rke/pki/cert"
+	v3 "github.com/chiukapoor/rke/types"
 	"github.com/sirupsen/logrus"
 )
 

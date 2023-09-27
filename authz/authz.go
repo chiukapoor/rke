@@ -3,9 +3,9 @@ package authz
 import (
 	"context"
 
-	"github.com/rancher/rke/k8s"
-	"github.com/rancher/rke/log"
-	"github.com/rancher/rke/templates"
+	"github.com/chiukapoor/rke/k8s"
+	"github.com/chiukapoor/rke/log"
+	"github.com/chiukapoor/rke/templates"
 	"k8s.io/client-go/transport"
 )
 
