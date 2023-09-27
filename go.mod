@@ -6,6 +6,7 @@ replace (
 	github.com/knative/pkg => github.com/rancher/pkg v0.0.0-20190514055449-b30ab9de040e
 	// Replace some k8s modules with specific versions to get rid of the "unknown revision v0.0.0" error caused by the k8s.io/kubernetes module
 	// Upstream Issue: https://github.com/kubernetes/kubernetes/issues/79384
+	k8s.io/api => k8s.io/api v0.27.6
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.27.6
 	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v0.27.6
 	k8s.io/controller-manager => k8s.io/controller-manager v0.27.6
